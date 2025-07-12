@@ -5,4 +5,4 @@ Conducted research in cooperative multi-agent reinforcement learning using Tence
 
 This project builds on the baseline implementation and runs on environment from [Tencent AI Lab's Mini-HoK repository](https://github.com/tencent-ailab/mini-hok).
 
-Enhanced algorithms and final result curves are available in the [`Hok-results`](./Hok-results) folder.
+Enhanced algorithms and final result curves are available in the [`Hok-results`](./hok_results(qmix_ln+vdn)/qmix_ln) folder.
