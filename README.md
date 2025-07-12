@@ -1,2 +1,2 @@
 # MARL-Research-Hok
-Implemented multi-agent reinforcement learning strategies in a simplified MOBA-like environment inspired by Tencent’s Mini-Honor of Kings. Tuned network architectures and added layer normalization to improve coordination and win rate, achieving a 5% performance gain over the baseline.
+Conducted research in cooperative multi-agent reinforcement learning using Tencent’s Mini-HoK environment, designing hero agents to maximize team damage within a 30-second combat window. Enhanced baseline algorithms (VDN, QMIX) by integrating Layer Normalization, improving training stability and convergence—achieving a 5% boost in win rate. Contributed to experiment design, training pipelines, and evaluation, and co-authored the final technical report.
