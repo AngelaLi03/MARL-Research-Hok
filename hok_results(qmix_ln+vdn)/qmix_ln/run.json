@@ -1,0 +1,96 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/home/ubuntu/HOK_MARL/src",
+    "dependencies": [
+      "numpy==1.24.4",
+      "PyYAML==6.0.1",
+      "sacred==0.8.5",
+      "torch==1.12.1"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_07a0204c0ef6bb19d1d14c7aecccbba7.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_ce9a261c391cbeae67129d3d806d06da.py"
+      ]
+    ]
+  },
+  "heartbeat": "2025-06-25T18:13:38.012908",
+  "host": {
+    "ENV": {},
+    "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+    "gpus": {
+      "driver_version": "535.230.02",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 3080 Ti Laptop GPU",
+          "persistence_mode": false,
+          "total_memory": 16384
+        }
+      ]
+    },
+    "hostname": "a7fcab0a9eef",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-139-generic-x86_64-with-glibc2.34"
+    ],
+    "python_version": "3.8.19"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "buffer_size": 15000,
+      "mixer": "nmix_ln",
+      "name": "qmix_ln_long",
+      "save_model_interval": 50000,
+      "t_max": 500000,
+      "use_cuda": false
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "mixer=nmix_ln",
+        "use_cuda=False",
+        "t_max=500000",
+        "buffer_size=15000",
+        "save_model_interval=50000",
+        "name=qmix_ln_long"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2025-06-25T10:14:29.643664",
+  "status": "RUNNING"
+}
